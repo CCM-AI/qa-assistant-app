@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Retrieve the API key securely from Streamlit's secrets
-api_key = st.secrets["API_KEY"]
+api_key = st.secrets["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"]
 
 # Function to call the Q&A API and get a response
 def get_answer_from_api(question):
